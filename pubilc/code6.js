@@ -8,7 +8,7 @@ gdjs.padCode.GDNewTextObjects1= [];
 gdjs.padCode.GDNewTextObjects2= [];
 
 
-gdjs.padCode.asyncCallback13635484 = function (runtimeScene, asyncObjectsList) {
+gdjs.padCode.asyncCallback13646204 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.padCode.localVariables);
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "sencestart");
 }gdjs.padCode.localVariables.length = 0;
@@ -22,7 +22,7 @@ gdjs.padCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.padCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.padCode.asyncCallback13635484(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.padCode.asyncCallback13646204(runtimeScene, asyncObjectsList)));
 }
 }
 

@@ -8,7 +8,7 @@ gdjs.keyboradCode.GDNewTextObjects1= [];
 gdjs.keyboradCode.GDNewTextObjects2= [];
 
 
-gdjs.keyboradCode.asyncCallback13617700 = function (runtimeScene, asyncObjectsList) {
+gdjs.keyboradCode.asyncCallback13628420 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.keyboradCode.localVariables);
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "sencestart");
 }gdjs.keyboradCode.localVariables.length = 0;
@@ -22,7 +22,7 @@ gdjs.keyboradCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.keyboradCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.keyboradCode.asyncCallback13617700(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.keyboradCode.asyncCallback13628420(runtimeScene, asyncObjectsList)));
 }
 }
 
