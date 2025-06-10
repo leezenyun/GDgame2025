@@ -10,6 +10,8 @@ gdjs.startCode.GDquitButtonObjects1= [];
 gdjs.startCode.GDquitButtonObjects2= [];
 gdjs.startCode.GD_9535498_9526126ButtonObjects1= [];
 gdjs.startCode.GD_9535498_9526126ButtonObjects2= [];
+gdjs.startCode.GD_9525490_9534892_9527036ButtonObjects1= [];
+gdjs.startCode.GD_9525490_9534892_9527036ButtonObjects2= [];
 
 
 gdjs.startCode.asyncCallback13381116 = function (runtimeScene, asyncObjectsList) {
@@ -125,6 +127,27 @@ if (isConditionTrue_0) {
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("排行榜Button"), gdjs.startCode.GD_9525490_9534892_9527036ButtonObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.startCode.GD_9525490_9534892_9527036ButtonObjects1.length;i<l;++i) {
+    if ( gdjs.startCode.GD_9525490_9534892_9527036ButtonObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.startCode.GD_9525490_9534892_9527036ButtonObjects1[k] = gdjs.startCode.GD_9525490_9534892_9527036ButtonObjects1[i];
+        ++k;
+    }
+}
+gdjs.startCode.GD_9525490_9534892_9527036ButtonObjects1.length = k;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "score", false);
+}}
+
+}
+
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("startbutton"), gdjs.startCode.GDstartbuttonObjects1);
 
 let isConditionTrue_0 = false;
@@ -154,29 +177,7 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("說明Button"), gdjs.startCode.GD_9535498_9526126ButtonObjects1);
 
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.startCode.GD_9535498_9526126ButtonObjects1.length;i<l;++i) {
-    if ( gdjs.startCode.GD_9535498_9526126ButtonObjects1[i].getVariableNumber(gdjs.startCode.GD_9535498_9526126ButtonObjects1[i].getVariables().getFromIndex(0)) == 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.startCode.GD_9535498_9526126ButtonObjects1[k] = gdjs.startCode.GD_9535498_9526126ButtonObjects1[i];
-        ++k;
-    }
-}
-gdjs.startCode.GD_9535498_9526126ButtonObjects1.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, 1, "A", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "sencestart") >= 0.2;
-}
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "illustrate", false);
-}}
 
 }
 
@@ -568,6 +569,8 @@ gdjs.startCode.GDquitButtonObjects1.length = 0;
 gdjs.startCode.GDquitButtonObjects2.length = 0;
 gdjs.startCode.GD_9535498_9526126ButtonObjects1.length = 0;
 gdjs.startCode.GD_9535498_9526126ButtonObjects2.length = 0;
+gdjs.startCode.GD_9525490_9534892_9527036ButtonObjects1.length = 0;
+gdjs.startCode.GD_9525490_9534892_9527036ButtonObjects2.length = 0;
 
 gdjs.startCode.eventsList1(runtimeScene);
 gdjs.startCode.GDstartbuttonObjects1.length = 0;
@@ -580,6 +583,8 @@ gdjs.startCode.GDquitButtonObjects1.length = 0;
 gdjs.startCode.GDquitButtonObjects2.length = 0;
 gdjs.startCode.GD_9535498_9526126ButtonObjects1.length = 0;
 gdjs.startCode.GD_9535498_9526126ButtonObjects2.length = 0;
+gdjs.startCode.GD_9525490_9534892_9527036ButtonObjects1.length = 0;
+gdjs.startCode.GD_9525490_9534892_9527036ButtonObjects2.length = 0;
 
 
 return;
