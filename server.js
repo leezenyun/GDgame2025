@@ -49,4 +49,6 @@ server.post("/postscore", (req, res) => {
    // res.send([{name:"MD", rank:1},{name:"Jhon",rank:2}]);
 });
 
-server.listen(80);
+server.listen(80, () => {
+  console.log("伺服器已啟動：請在瀏覽器開啟 http://127.0.0.1");
+});
