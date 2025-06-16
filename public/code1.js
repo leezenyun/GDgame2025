@@ -636,7 +636,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.gameCode.mapOfGDgdjs_9546gameCode_9546GDTommyObjects1Objects, gdjs.gameCode.mapOfGDgdjs_9546gameCode_9546GDhookObjects1Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "e");
+isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "x");
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.gameCode.GDTommyObjects1 */
