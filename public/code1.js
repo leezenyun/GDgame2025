@@ -117,7 +117,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsNumber() == 0);
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(6).getChild("time").setNumber(gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSeconds(runtimeScene, "gametime"));
+{runtimeScene.getGame().getVariables().getFromIndex(6).getChild("time").setNumber(Math.floor(gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSeconds(runtimeScene, "gametime")));
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "win", false);
 }}
 
