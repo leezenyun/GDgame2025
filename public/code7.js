@@ -15,6 +15,9 @@ gdjs.scoreCode.GDlv2Objects3= [];
 gdjs.scoreCode.GDlv3Objects1= [];
 gdjs.scoreCode.GDlv3Objects2= [];
 gdjs.scoreCode.GDlv3Objects3= [];
+gdjs.scoreCode.GDlv4Objects1= [];
+gdjs.scoreCode.GDlv4Objects2= [];
+gdjs.scoreCode.GDlv4Objects3= [];
 
 
 gdjs.scoreCode.eventsList0 = function(runtimeScene, asyncObjectsList) {
@@ -223,6 +226,9 @@ gdjs.scoreCode.GDlv2Objects3.length = 0;
 gdjs.scoreCode.GDlv3Objects1.length = 0;
 gdjs.scoreCode.GDlv3Objects2.length = 0;
 gdjs.scoreCode.GDlv3Objects3.length = 0;
+gdjs.scoreCode.GDlv4Objects1.length = 0;
+gdjs.scoreCode.GDlv4Objects2.length = 0;
+gdjs.scoreCode.GDlv4Objects3.length = 0;
 
 gdjs.scoreCode.eventsList4(runtimeScene);
 gdjs.scoreCode.GDNewSpriteObjects1.length = 0;
@@ -240,6 +246,9 @@ gdjs.scoreCode.GDlv2Objects3.length = 0;
 gdjs.scoreCode.GDlv3Objects1.length = 0;
 gdjs.scoreCode.GDlv3Objects2.length = 0;
 gdjs.scoreCode.GDlv3Objects3.length = 0;
+gdjs.scoreCode.GDlv4Objects1.length = 0;
+gdjs.scoreCode.GDlv4Objects2.length = 0;
+gdjs.scoreCode.GDlv4Objects3.length = 0;
 
 
 return;
