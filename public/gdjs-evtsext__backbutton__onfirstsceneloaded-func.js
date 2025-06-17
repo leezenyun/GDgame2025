@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__BackButton__onFirstSceneLoaded !== "undefined") {
 gdjs.evtsExt__BackButton__onFirstSceneLoaded = {};
 
 
-gdjs.evtsExt__BackButton__onFirstSceneLoaded.userFunc0xa0ba80 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__BackButton__onFirstSceneLoaded.userFunc0x997778 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs.evtTools.back_button = {
     triggered: false,
@@ -34,7 +34,7 @@ gdjs.evtsExt__BackButton__onFirstSceneLoaded.eventsList0 = function(runtimeScene
 {
 
 
-gdjs.evtsExt__BackButton__onFirstSceneLoaded.userFunc0xa0ba80(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__BackButton__onFirstSceneLoaded.userFunc0x997778(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

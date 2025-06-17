@@ -380,7 +380,7 @@ for (var i = 0, k = 0, l = gdjs.gameCode.GDTommyObjects1.length;i<l;++i) {
 gdjs.gameCode.GDTommyObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13550380);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13549068);
 }
 }
 }
@@ -416,7 +416,7 @@ for (var i = 0, k = 0, l = gdjs.gameCode.GDTommyObjects1.length;i<l;++i) {
 gdjs.gameCode.GDTommyObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13551932);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13550620);
 }
 }
 }
@@ -552,7 +552,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.gameCode.mapOfGDgdjs_9546gameCode_9546GDTommyObjects1Objects, gdjs.gameCode.mapOfGDgdjs_9546gameCode_9546GDRedLaser09Objects1Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13556500);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13555188);
 }
 }
 if (isConditionTrue_0) {
@@ -842,7 +842,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "dashCD") >= 2;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13570652);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13569340);
 }
 }
 }
@@ -896,7 +896,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "dashCD") >= 2;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13573684);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13572372);
 }
 }
 }

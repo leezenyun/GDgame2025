@@ -203,7 +203,7 @@ for (var i = 0, k = 0, l = gdjs.illustrateCode.GDbackButtonObjects1.length;i<l;+
 gdjs.illustrateCode.GDbackButtonObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13715252);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13713892);
 }
 }
 if (isConditionTrue_0) {
@@ -232,7 +232,7 @@ for (var i = 0, k = 0, l = gdjs.illustrateCode.GDpadButtonObjects1.length;i<l;++
 gdjs.illustrateCode.GDpadButtonObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13715084);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13713724);
 }
 }
 if (isConditionTrue_0) {
@@ -261,7 +261,7 @@ for (var i = 0, k = 0, l = gdjs.illustrateCode.GDkeyButtonObjects1.length;i<l;++
 gdjs.illustrateCode.GDkeyButtonObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13717356);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13715996);
 }
 }
 if (isConditionTrue_0) {
@@ -290,7 +290,7 @@ for (var i = 0, k = 0, l = gdjs.illustrateCode.GDbackButtonObjects1.length;i<l;+
 gdjs.illustrateCode.GDbackButtonObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13717996);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13716636);
 }
 }
 if (isConditionTrue_0) {
@@ -319,7 +319,7 @@ for (var i = 0, k = 0, l = gdjs.illustrateCode.GDkeyButtonObjects1.length;i<l;++
 gdjs.illustrateCode.GDkeyButtonObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13718820);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13717460);
 }
 }
 if (isConditionTrue_0) {
@@ -348,7 +348,7 @@ for (var i = 0, k = 0, l = gdjs.illustrateCode.GDpadButtonObjects1.length;i<l;++
 gdjs.illustrateCode.GDpadButtonObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13719972);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13718612);
 }
 }
 if (isConditionTrue_0) {

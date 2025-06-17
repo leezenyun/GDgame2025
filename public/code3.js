@@ -24,7 +24,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.winCode.asyncCallback13693444 = function (runtimeScene, asyncObjectsList) {
+};gdjs.winCode.asyncCallback13692100 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.winCode.localVariables);
 
 { //Subevents
@@ -40,7 +40,7 @@ gdjs.winCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.winCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.network.sendAwaitableAsyncRequest("/postscore", gdjs.evtTools.network.variableStructureToJSON(runtimeScene.getGame().getVariables().getFromIndex(6)), "POST", "application/json", runtimeScene.getScene().getVariables().getFromIndex(0), gdjs.VariablesContainer.badVariable), (runtimeScene) => (gdjs.winCode.asyncCallback13693444(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.network.sendAwaitableAsyncRequest("/postscore", gdjs.evtTools.network.variableStructureToJSON(runtimeScene.getGame().getVariables().getFromIndex(6)), "POST", "application/json", runtimeScene.getScene().getVariables().getFromIndex(0), gdjs.VariablesContainer.badVariable), (runtimeScene) => (gdjs.winCode.asyncCallback13692100(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -88,7 +88,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13692996);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13691652);
 }
 if (isConditionTrue_0) {
 
